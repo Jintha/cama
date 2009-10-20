@@ -1,0 +1,544 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Downloads Manager 1.0 beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-03 16:23+0100\n"
+"PO-Revision-Date: 2008-08-03 16:23+0100\n"
+"Last-Translator: Giulio Ganci <julius.exe@gmail.com>\n"
+"Language-Team: Giulio Ganci <julius.exe@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../downloads-manager.php:42
+#: ../pages/dm-main.php:155
+msgid "Downloads Manager"
+msgstr "Gestione Downloads"
+
+#: ../downloads-manager.php:44
+#: ../pages/dm-add.php:157
+msgid "Add Download"
+msgstr "Aggiungi Download"
+
+#: ../downloads-manager.php:45
+#: ../pages/dm-stats.php:10
+msgid "Stats"
+msgstr "Statistiche"
+
+#: ../downloads-manager.php:46
+#: ../pages/dm-categories.php:37
+msgid "Categories"
+msgstr "Categorie"
+
+#: ../downloads-manager.php:47
+#: ../pages/dm-template.php:35
+msgid "Template"
+msgstr "Template"
+
+#: ../downloads-manager.php:48
+#: ../pages/dm-uninstall.php:4
+#: ../pages/dm-uninstall.php:30
+msgid "Uninstall Downloads Manager"
+msgstr "Disinstalla Downloads Manager"
+
+#: ../downloads-manager.php:70
+#: ../downloads-manager.php:117
+#: ../downloads-manager.php:118
+msgid "Most Downloaded"
+msgstr "Più Scaricati"
+
+#: ../downloads-manager.php:79
+#: ../downloads-manager.php:109
+msgid "Title"
+msgstr "Titolo"
+
+#: ../downloads-manager.php:80
+#: ../downloads-manager.php:110
+msgid "Limit"
+msgstr "Limite"
+
+#: ../downloads-manager.php:81
+#: ../downloads-manager.php:111
+msgid "Show Category"
+msgstr "Mostra Categoria"
+
+#: ../downloads-manager.php:83
+#: ../downloads-manager.php:113
+msgid "Show Avarage"
+msgstr "Mostra Media"
+
+#: ../downloads-manager.php:100
+#: ../downloads-manager.php:120
+#: ../downloads-manager.php:121
+msgid "New Downloads"
+msgstr "Nuovi Downloads"
+
+#: ../downloads-manager.php:139
+msgid "Invalid File ID."
+msgstr "File ID non valido."
+
+#: ../downloads-manager.php:146
+msgid "Sorry, you need to be registered to download this file!"
+msgstr "Spiacente, devi essere registrato per scaricare questo file!"
+
+#: ../downloads-manager.php:183
+msgid "Updated Information"
+msgstr "Informazioni Aggionrnate"
+
+#: ../downloads-manager.php:186
+#: ../downloads-manager.php:214
+msgid "Error! You must choose a file"
+msgstr "Erorre! Devi scegliere un file"
+
+#: ../downloads-manager.php:189
+#: ../downloads-manager.php:217
+msgid "Error! You must choose a category"
+msgstr "Erorre! Devi scegliere una categoria"
+
+#: ../downloads-manager.php:211
+msgid "Download Added"
+msgstr "Download Aggiungo"
+
+#: ../downloads-manager.php:226
+msgid "Can't find destination folder"
+msgstr "Non riesco a trovare la cartella di destinazione"
+
+#: ../downloads-manager.php:228
+msgid "File Uploaded"
+msgstr "File Caricato"
+
+#: ../downloads-manager.php:231
+msgid "Error during upload of"
+msgstr "Errore durante il caricamento di"
+
+#: ../downloads-manager.php:240
+msgid "File Removed!"
+msgstr "File Rimosso!"
+
+#: ../downloads-manager.php:252
+#: ../downloads-manager.php:259
+msgid "Error... Can' write file page-download-template.tpl!"
+msgstr "Errore... Non posso scrivere sul file page-download-template-tpl!"
+
+#: ../downloads-manager.php:261
+msgid "Templates Updated!"
+msgstr "Templates Aggiornati"
+
+#: ../downloads-manager.php:268
+msgid "Added Category!"
+msgstr "Categoria Aggiunta"
+
+#: ../downloads-manager.php:275
+msgid "Category Updated!"
+msgstr "Categoria Aggiornata"
+
+#: ../downloads-manager.php:281
+#, php-format
+msgid "Category \"%s\" Deleted!"
+msgstr "Categoria \"%s\" Cancellata!"
+
+#: ../downloads-manager.php:289
+msgid "Uninstall Completed"
+msgstr "Disinstallazione Completata"
+
+#: ../downloads-manager.php:293
+msgid "Check the \"I'm sure\" field"
+msgstr "Controlla il campo \"Sono Sicuro\""
+
+#: ../functions.php:25
+#: ../functions.php:27
+msgid "General"
+msgstr "Generale"
+
+#: ../functions.php:81
+#: ../functions.php:100
+msgid "Error..."
+msgstr "Errore..."
+
+#: ../functions.php:109
+msgid "Already Added"
+msgstr "Già Aggiunto"
+
+#: ../functions.php:139
+#: ../functions.php:153
+#: ../pages/dm-main.php:195
+#: ../pages/dm-stats.php:37
+#: ../pages/dm-stats.php:46
+msgid "Clicks per day"
+msgstr "Click al giorno"
+
+#: ../functions.php:140
+#: ../functions.php:154
+#: ../pages/dm-add.php:106
+#: ../pages/dm-main.php:191
+#: ../pages/dm-main.php:258
+msgid "Category"
+msgstr "Categoria"
+
+#: ../functions.php:171
+msgid "Error... Unable to load download template. Search single-download-template.tpl in your plugin folder!"
+msgstr "Errore... Impossibile caricare il template. Cerca single-download-template-tpl nella cartella del plugin!"
+
+#: ../functions.php:175
+msgid "This is not a valid download id"
+msgstr "Questo non è un id download valido"
+
+#: ../functions.php:180
+#: ../functions.php:211
+msgid "\\2"
+msgstr "\\2"
+
+#: ../functions.php:197
+msgid "Error... Unable to load page template. Search page-download-template.tpl in your plugin folder!"
+msgstr "Errore... Impossibile caricare il template. Cerca page-download-template-tpl nella cartella del plugin!"
+
+#: ../pages/dm-add.php:24
+#: ../pages/dm-main.php:67
+msgid "Edit Download"
+msgstr "Modifica Download"
+
+#: ../pages/dm-add.php:66
+msgid "Upload Your File"
+msgstr "Carica il tuo File"
+
+#: ../pages/dm-add.php:67
+msgid "Use this module to upload your files. If you find any problems you can use an ftp client to upload files into downloads-manager/upload/ directory."
+msgstr "Usa questo modulo per caricare i tuoi file. Se incontri qualche problema puoi usare un client ftp per caricare i file all'interno della directory downloads-manager/upload"
+
+#: ../pages/dm-add.php:71
+msgid "Upload File"
+msgstr "Carica File"
+
+#: ../pages/dm-add.php:73
+msgid "Max file size"
+msgstr "Dimensione massima del file"
+
+#: ../pages/dm-add.php:79
+msgid "Add a Download"
+msgstr "Aggiungi un Download"
+
+#: ../pages/dm-add.php:83
+#: ../pages/dm-main.php:235
+msgid "File Name"
+msgstr "Nome File"
+
+#: ../pages/dm-add.php:86
+#: ../pages/dm-main.php:238
+msgid "Files Uploaded"
+msgstr "Files Caricati"
+
+#: ../pages/dm-add.php:92
+#: ../pages/dm-main.php:244
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../pages/dm-add.php:100
+msgid "Do you want add a download from link?"
+msgstr "Vuoi aggiungere un download da link?"
+
+#: ../pages/dm-add.php:109
+#: ../pages/dm-main.php:261
+msgid "Choose a Category..."
+msgstr "Scegli una categoria"
+
+#: ../pages/dm-add.php:115
+#: ../pages/dm-main.php:187
+#: ../pages/dm-main.php:267
+msgid "Icon"
+msgstr "Icona"
+
+#: ../pages/dm-add.php:124
+#: ../pages/dm-main.php:276
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ../pages/dm-add.php:134
+#: ../pages/dm-main.php:194
+#: ../pages/dm-main.php:286
+#: ../pages/dm-stats.php:37
+#: ../pages/dm-stats.php:46
+msgid "Clicks"
+msgstr "Clicks"
+
+#: ../pages/dm-add.php:138
+#: ../pages/dm-main.php:290
+msgid "Date"
+msgstr "Data"
+
+#: ../pages/dm-add.php:141
+#: ../pages/dm-main.php:293
+msgid "dd/mm/yyyy"
+msgstr "gg/mm/aaaa"
+
+#: ../pages/dm-add.php:141
+#: ../pages/dm-main.php:293
+msgid "Optional"
+msgstr "Opzionale"
+
+#: ../pages/dm-add.php:145
+#: ../pages/dm-main.php:193
+#: ../pages/dm-main.php:297
+msgid "Permissions"
+msgstr "Permessi"
+
+#: ../pages/dm-add.php:150
+#: ../pages/dm-main.php:302
+msgid "Download for all users"
+msgstr "Download per tutti gli utenti"
+
+#: ../pages/dm-add.php:152
+#: ../pages/dm-main.php:304
+msgid "Downlad for registred users only"
+msgstr "Download per soli utenti registrati"
+
+#: ../pages/dm-add.php:158
+#: ../pages/dm-main.php:310
+msgid "Reset Fields"
+msgstr "Reimposta Campi"
+
+#: ../pages/dm-categories.php:6
+msgid "Do you want to edit category"
+msgstr "Vuoi modificare la categoria?"
+
+#: ../pages/dm-categories.php:8
+msgid "Insert new name for this category"
+msgstr "Inserisci un nuovo nome per questa categoria"
+
+#: ../pages/dm-categories.php:18
+msgid "You cant delete not empty categories"
+msgstr "Non puoi cancellare categoria non vuote"
+
+#: ../pages/dm-categories.php:21
+msgid "Do you want to delete category"
+msgstr "Vuoi cancellare la categoria"
+
+#: ../pages/dm-categories.php:39
+msgid "Add Category"
+msgstr "Aggiungi Categoria"
+
+#: ../pages/dm-categories.php:44
+#: ../pages/dm-main.php:188
+msgid "ID"
+msgstr "ID"
+
+#: ../pages/dm-categories.php:45
+#: ../pages/dm-main.php:189
+msgid "Name"
+msgstr "Nome"
+
+#: ../pages/dm-categories.php:46
+msgid "Downloads"
+msgstr "Downloads"
+
+#: ../pages/dm-categories.php:47
+#: ../pages/dm-main.php:196
+msgid "Actions"
+msgstr "Azioni"
+
+#: ../pages/dm-categories.php:59
+#: ../pages/dm-main.php:214
+msgid "Delete"
+msgstr "Cancella"
+
+#: ../pages/dm-categories.php:60
+#: ../pages/dm-main.php:215
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../pages/dm-main.php:110
+msgid "Remove Download"
+msgstr "Rimuovi Download"
+
+#: ../pages/dm-main.php:121
+msgid "Put this code into your post"
+msgstr "Metti questo codice nel tuo post"
+
+#: ../pages/dm-main.php:121
+#: ../pages/dm-main.php:311
+#: ../pages/dm-main.php:328
+msgid "Close"
+msgstr "Chiudi"
+
+#: ../pages/dm-main.php:157
+msgid "Wellcome! In this page there are all downloads you have added. Remeber to create categories (category page) else you can't add downloads."
+msgstr "Benvenuto! In quest pagina ci sono tutti i downloads che hai aggiunto. Ricorda di creare le categorie (pagina categorie) altrimenti non potrai aggiungere i downloads."
+
+#: ../pages/dm-main.php:158
+msgid "Good Blogging and enjoy it!"
+msgstr "Buon Blogging e buon divertimento!"
+
+#: ../pages/dm-main.php:163
+msgid "Download for everyone"
+msgstr "Download per tutti"
+
+#: ../pages/dm-main.php:165
+msgid "Download for registred users"
+msgstr "Download per utenti registrati"
+
+#: ../pages/dm-main.php:168
+msgid "Page"
+msgstr "Pagina"
+
+#: ../pages/dm-main.php:190
+msgid "Size"
+msgstr "Dimensione"
+
+#: ../pages/dm-main.php:192
+msgid "Added"
+msgstr "Aggiunto"
+
+#: ../pages/dm-main.php:206
+msgid "Click me!"
+msgstr "Cliccami!"
+
+#: ../pages/dm-main.php:221
+msgid "There are no downloads!"
+msgstr "Non si sono downloads!"
+
+#: ../pages/dm-main.php:252
+msgid "Do you want edit a download link? (file remote only) "
+msgstr "Vuoi modificare il link al download? (solo file remoti)"
+
+#: ../pages/dm-main.php:309
+msgid "Update Information"
+msgstr "Aggiorna Informazioni"
+
+#: ../pages/dm-main.php:327
+msgid "Are you sure you want to remove this download?"
+msgstr "Sei sicuro di volere rimuovere questo download?"
+
+#: ../pages/dm-main.php:328
+msgid "I'm Sure"
+msgstr "Sono Sicuro"
+
+#: ../pages/dm-main.php:331
+msgid "Do you want delete the local file?"
+msgstr "Vuoi anche eliminare il file locale?"
+
+#: ../pages/dm-stats.php:15
+msgid "Global Stats"
+msgstr "Statistiche Globali"
+
+#: ../pages/dm-stats.php:16
+msgid "10 Most Downloaded"
+msgstr "10 più Scaricati"
+
+#: ../pages/dm-stats.php:20
+msgid "Tot Downloads"
+msgstr "Downloads Totali"
+
+#: ../pages/dm-stats.php:26
+msgid "Tot Clicks"
+msgstr "Clicks Totali"
+
+#: ../pages/dm-stats.php:29
+msgid "Tot Categories"
+msgstr "Categorie Totali"
+
+#: ../pages/dm-stats.php:32
+msgid "First Download Added"
+msgstr "Primo Download Aggiunto"
+
+#: ../pages/dm-stats.php:41
+msgid "Last Download Added"
+msgstr "Ultimo Download Aggiunto"
+
+#: ../pages/dm-template.php:7
+#: ../pages/dm-template.php:24
+msgid "File page-download-template.tpl not found"
+msgstr "File Page-download-template.tpl non trovato"
+
+#: ../pages/dm-template.php:10
+#: ../pages/dm-template.php:17
+msgid "File single-download-template.tpl not found"
+msgstr "File single-download-template.tpl non trovato"
+
+#: ../pages/dm-template.php:36
+msgid "Keywords"
+msgstr "Parole Chiave"
+
+#: ../pages/dm-template.php:37
+#, fuzzy
+msgid "Show all downloads ordered by categories in posts or pages."
+msgstr "Mostra tutti i download ordinati per categoria."
+
+#: ../pages/dm-template.php:44
+msgid "Single Download Template"
+msgstr "Aspetto del Sindolo Download"
+
+#: ../pages/dm-template.php:45
+msgid "Page Download Template"
+msgstr "Aspetto Pagina dei Downloads"
+
+#: ../pages/dm-template.php:52
+msgid "Update Templates"
+msgstr "Aggiorna Templates"
+
+#: ../pages/dm-uninstall.php:8
+msgid "When you've installed this plugin it created these tables in your database."
+msgstr "Quando hai installato il plugin sono state create queste tabelle nel tuo database."
+
+#: ../pages/dm-uninstall.php:13
+msgid "Table Name"
+msgstr "Nome Tabella"
+
+#: ../pages/dm-uninstall.php:14
+msgid "Rows"
+msgstr "Righe"
+
+#: ../pages/dm-uninstall.php:28
+msgid "If you choose to uninstall downloads manager the table above will be deleted from your database. Are you sure?"
+msgstr "Se scegli di installare il downloads manager le tabelle sopra verranno cancellate dal tuo database. Sei sicuro?"
+
+#: ../pages/dm-uninstall.php:29
+msgid "I'm Sure!"
+msgstr "Sono Sicuro!"
+
+#: ../pages/dm-uninstall.php:35
+msgid "Uninstall completed successfully"
+msgstr "Disinstallazione Completata"
+
+#: ../pages/dm-uninstall.php:39
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> and the plugin will be deactivated else it don't work again"
+msgstr "<a href=\"%s\">Clicca qui</a> per disattivare il plugin altrimenti non funzionerà più"
+
+#, fuzzy
+#~ msgid "Downloads Managers Codes"
+#~ msgstr "Gestione Downloads"
+
+#, fuzzy
+#~ msgid "YourCategoryName"
+#~ msgstr "Categoria"
+
+#, fuzzy
+#~ msgid "Show downloads stored in a category."
+#~ msgstr "Vuoi modificare la categoria?"
+#~ msgid "Hide"
+#~ msgstr "Nascondi"
+#~ msgid "Unknow File"
+#~ msgstr "File Sconosciuto"
+#~ msgid "Work in Progress"
+#~ msgstr "Lavori in Corso"
+#~ msgid "File Url"
+#~ msgstr "File Url"
+#~ msgid "File Page-download-template.tpl not found"
+#~ msgstr "File Page-download-template.tpl non trovato"
+#~ msgid "Delete Data"
+#~ msgstr "Cancella Dati"
+#~ msgid "Not found"
+#~ msgstr "Non trovato"
+#~ msgid "Active"
+#~ msgstr "Attivo"
+#~ msgid "File not found"
+#~ msgstr "File non trovato"
+#~ msgid "Status"
+#~ msgstr "Stato"
+#~ msgid "All user can download this file"
+#~ msgstr "Tutti gli utenti possono scaricare il file"
+

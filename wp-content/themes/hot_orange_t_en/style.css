@@ -1,0 +1,675 @@
+/*
+Theme Name: Hot Orange T.
+Theme URI: http://www.xns.ru/
+Description: Widget ready 3 collumn Wordpress theme named <a href="http://www.xns.ru">Hot Orange T.</a>, design - <a href="http://xns.ru">xns.ru</a>.
+Author: Saroyama
+*/ 
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+	font-size: 0.9em;
+	background-color: #000000; 
+	background-image: url('images/background.jpg');
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+} 
+a:link,
+a:visited {
+	color:#C6524E;
+	text-decoration: none;
+}
+a:hover {
+	color:#C6524E;
+	text-decoration: underline;
+}
+
+img, a img {
+	border:none;
+}
+
+code {
+	font-family: "Courier New", Courier, mono;
+	color: #333333;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+/*		
+//////////////////////////////////////////////////////
+						LAYOUT
+//////////////////////////////////////////////////////
+*/ 
+
+#wrapp {
+	width: 970px;
+	margin: 0px auto;
+	background-image: url('images/header_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/*		
+//////////////////////////////////////////////////////
+						HEADER
+//////////////////////////////////////////////////////
+*/ 
+
+#header {
+	width: 970px;
+	height: 506px;
+}
+
+#HederTitle {
+	width: 500px;
+	height: 207px;
+	
+}
+#HederTitle h1 {
+	color: #ffffff;
+	font-weight: normal;
+	font-variant: normal;
+	width: 400px;
+	padding-top: 125px;
+	padding-left: 0px;
+}
+#HederTitle h1 a:link,
+#HederTitle h1 a:visited {
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+#HederTitle h1 a:hover {
+	text-decoration: none;
+	color:#CC0000;
+}
+
+#HederTitle span {
+	color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	width: 450px;
+	font-size: 1.1em;
+	padding-left: 0px;
+}
+
+
+#BottomHeader {
+	height: 200px;
+	width: 850px;
+}
+#BottomHeaderWrapp {
+	width: 850px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	height: 200px;
+	overflow:auto;
+	
+}
+#BottomHeaderWrapp p {
+	color: #000000;
+	font-size: 1.0em;
+	padding: 5px;
+	padding-left: 165px;
+}
+#BottomHeaderWrapp img,
+#BottomHeaderWrapp a img {
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:0px;
+	padding-right:9px;
+
+
+}
+#BottomHeaderWrapp a:link,
+#BottomHeaderWrapp a:visited,
+#BottomHeaderWrapp p a:link,
+#BottomHeaderWrapp p a:visited {
+	color:#000000;
+	text-decoration: none;
+}
+#BottomHeaderWrapp a:hover,
+#BottomHeaderWrapp p a:hover {
+	color:#000000;
+	text-decoration: underline;
+}
+#BottomHeaderWrapp span {
+	display:block;
+	float:right;
+	margin-right:25px;
+}
+
+/*		
+//////////////////////////////////////////////////////
+						MAIN
+//////////////////////////////////////////////////////
+*/ 
+#wrappinner {
+	width: 740px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	width: 560px;
+	float: left;
+	margin-top: 35px;
+	/*margin-left: 8px;*/
+}
+#main .navigation {
+	width: 550px;
+	
+}
+#main .navigation .alignleft {
+	float: left;
+}
+#main .navigation .alignleft a:link,
+#main .navigation .alignleft a:visited {
+	color:#BD413D;
+	text-decoration: none;
+	
+}
+#main .navigation .alignleft a:hover {
+	color:#BD413D;
+	text-decoration: underline;
+	
+}
+#main .navigation .alignright {
+	float: right;
+}
+
+#main .navigation .alignright a:link,
+#main .navigation .alignright a:visited {
+	color:#BD413D;
+	text-decoration: none;
+}
+#main .navigation .alignright a:hover {
+	color:#BD413D;
+	text-decoration: underline;
+}
+
+#main .entryBox {
+	width: 547px;
+	background-color:#ffffff;
+	margin-bottom: 15px;
+	background-image: url('images/entry_bg_top_alt.jpg');
+	background-repeat: no-repeat;
+	background-position: -1px 0px;
+}
+#main .entryBox .title h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: #000000;
+	
+}
+#main .entryBox .title h2 a:link,
+#main .entryBox .title h2 a:visited {
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #000000;
+}
+#main .entryBox .title h2 a:hover {
+	color: #000000;
+}
+
+#main .entryBox span.date {
+	margin-left: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	color: #928771;
+	display: block;
+	font-weight: normal;
+}
+#main .entryBox .entry {
+	width: 510px;
+	overflow: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+        color: #4D5359;
+}
+#main .entryBox .entry p {
+	color: #333333;
+	font-size: 1.1em;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+#main .entryBox .entry a:link,
+#main .entryBox .entry p a:link {
+	text-decoration: underline;
+	color:#000000;
+}
+#main .entryBox .entry a:hover,
+#main .entryBox .entry p a:hover {
+	text-decoration: underline;
+	color: #999999;
+}
+#main .entryBox .entry a:visited,
+#main .entryBox .entry p a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+#main .entryBox .entry img {
+	padding: 7px;
+}
+#main .entryBox .entry ul,
+#main .entryBox .entry li  {
+	list-style-type: none;
+	padding: 2px;
+	
+}
+#main .entryBox .entry ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+#main .entryBox .entry code {
+	font-family: "Courier New", Courier, mono;
+	display: block;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-color: #DEDBD0;
+	padding: 3px;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+#main .entryBox .entry blockquote {
+	font-size: 0.9em;
+	padding-left: 10px;
+	line-height: 1.5em;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #BFB8A3;
+	font-style: oblique;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	
+}
+#main .entryBox .entry pre {
+	width: 500px;
+}
+#main .entryBox .entryBottom {
+	height:35px; 
+	background-image: url('images/entry_bg_bottom_alt.jpg');
+	background-repeat: no-repeat;
+	background-position: -1px 1px;
+	height: 40px;
+}
+#main .entryBox .entryBottom span {
+	font-size: 0.8em; 
+	padding-left: 17px;
+	padding-right: 7px;
+	display:block;
+        color: #000000;
+
+}
+#main .entryBox .entryBottom a:link,
+#main .entryBox .entryBottom a:visited {
+	text-decoration: none;
+	color: #77776B;
+	font-weight: bold;	
+}
+#main .entryBox .entryBottom a:hover {
+	text-decoration: underline;
+	color: #928771;
+	font-weight: bold;	
+}
+
+/*		
+//////////////////////////////////////////////////////
+					SINGLE/COMMENT PAGE
+//////////////////////////////////////////////////////
+*/ 
+
+#main .entryBox .entryDescription,
+#main .entryBoxAlt .entryDescription {
+	width: 510px;
+	overflow: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#main .entryBox .entryDescription p,
+#main .entryBoxAlt .entryDescription p {
+	padding: 15px 8px 0px;
+	line-height: 1.5em;
+}
+#main .entryBox .entryDescription p a:link,
+#main .entryBoxAlt .entryDescription p a:link,
+#main .entryBoxAlt .entryDescription p a:visited,
+#main .entryBox .entryDescription p a:visited {
+	text-decoration: underline;
+	color:#000000;
+}
+
+#main .entryBox .entryDescription p a:hover,
+#main .entryBoxAlt .entryDescription p a:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+#main .entryBox p.who,
+#main .entryBoxAlt p.who {
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;	
+	color: #000000;
+}
+
+#main .entryBox p.who a:link,
+#main .entryBox p.who a:visited,
+#main .entryBox .entryBottom p.commentmetadata a:link,
+#main .entryBox .entryBottom p.commentmetadata a:visited,
+#main .entryBoxAlt p.who a:link,
+#main .entryBoxAlt p.who a:visited,
+#main .entryBoxAlt .entryBottom p.commentmetadata a:link,
+#main .entryBoxAlt .entryBottom p.commentmetadata a:visited {
+	text-decoration: underline;
+	color: #000000;
+	font-weight: bold;	
+}
+
+#main .entryBox .entryBottom p.commentmetadata a:hover,
+#main .entryBoxAlt .entryBottom p.commentmetadata a:hover,
+#main .entryBox p.who a:hover,
+#main .entryBoxAlt p.who a:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+#main .entryBox .entryBottom p.commentmetadata,
+#main .entryBoxAlt .entryBottom p.commentmetadata {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	font-size: 0.8em;
+	color: #333333;
+}
+#main .entryBoxAlt {
+	width: 547px;
+	background-color:#ffffff;
+	margin-bottom: 35px;
+	background-image: url('images/entry_bg_top_alt.jpg');
+	background-repeat: no-repeat;
+	background-position: -1px 0px;
+}
+#main .entryBoxAlt .entryBottom {
+	background-image: url('images/entry_bg_bottom_alt.jpg');
+	background-repeat: no-repeat;
+	background-position: -1px 1px;
+	height: 40px;
+	font-weight: bold;	
+}
+#main #commentForm {
+	width:550px;
+}
+#main #commentForm p.tags {
+	padding: 10px;
+	width: 530px;
+        color: #CC0000;
+}
+#main #commentForm p {
+	padding:5px;
+        color: #CC0000;
+}
+#main #commentForm p a:link,
+#main #commentForm p a:visited {
+	color:#333333;
+	text-decoration: none;
+}
+
+#main #commentForm p a:hover {
+	color:#333333;
+	text-decoration: underline;
+
+}
+#main #commentForm input#submit {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 1em;
+	padding: 5px;
+	cursor:pointer;
+}
+#main #commentForm input#author,
+#main #commentForm input#email,
+#main #commentForm input#url,
+#main #commentForm textarea#comment {
+	font-family: "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+	padding: 8px 5px;
+	font-size: 1em;
+	font-weight: normal;
+	background-color: #fafafa;
+	border: 1px solid #E5E2D9;
+}
+#main #commentForm input#author:hover,
+#main #commentForm input#email:hover,
+#main #commentForm input#url:hover,
+#main #commentForm textarea#comment:hover {
+	background-color: #F7F7F3;
+	border: 1px solid #E5E2D9;
+}
+#main h3.respond {
+	padding: 10px 5px 10px;
+	font-weight: normal;
+        color: #ffffff;
+}
+/*		
+//////////////////////////////////////////////////////
+						SIDEBAR
+//////////////////////////////////////////////////////
+*/ 
+
+#sidebar {
+	float:left;
+	width: 120px;
+	margin-top: 35px;
+        margin-left: 10px;
+}
+#sidebar h2,
+#sidebar h3 {
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: #FF3300;
+}
+
+#sidebar ul,
+#sidebar li {
+	list-style-type: none;
+}
+#sidebar ul li {
+	padding: 3px 3px 3px 8px;
+	list-style-type: none;
+	color: #ffffff;
+}
+#sidebar a:link,
+#sidebar ul li a:link,
+#sidebar a:visited,
+#sidebar ul li a:visited {
+	color: #ffffff;
+	
+	text-decoration: none;
+}
+#sidebar a:hover,
+#sidebar ul li a:hover {
+	text-decoration: underline;
+	color:#ffffff;
+}
+
+#sidebar form {}
+#sidebar form input#s {
+	font-family: "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+	padding: 8px 5px;
+	margin:0px 0px 5px;
+	font-size: 1.3em;
+	font-weight: normal;
+	background-color: #fafafa;
+	border: 1px solid #E5E2D9;
+	
+}
+
+#sidebar form input#s:hover {
+	
+	background-color: #F7F7F3;
+	border: 1px solid #E5E2D9;
+}
+#sidebar form input {
+	border:none;
+	padding:5px;
+}
+
+/*		
+//////////////////////////////////////////////////////
+						SIDEBAR2
+//////////////////////////////////////////////////////
+*/ 
+
+#sidebar2 {
+	float:left;
+	width: 130px;
+	margin-top: 35px;
+	margin-left: 15px;
+}
+#sidebar2 h2,
+#sidebar2 h3 {
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: #FF3300;
+}
+
+#sidebar2 ul,
+#sidebar2 li {
+	list-style-type: none;
+	width: 150px;
+}
+#sidebar2 ul li {
+	padding: 3px 3px 3px 8px;
+	list-style-type: none;
+	color: #ffffff;
+	width: 100px;
+}
+#sidebar2 a:link,
+#sidebar2 ul li a:link,
+#sidebar2 a:visited,
+#sidebar2 ul li a:visited {
+	color: #ffffff;
+	width: 100px;
+	text-decoration: none;
+}
+#sidebar2 a:hover,
+#sidebar2 ul li a:hover {
+	text-decoration: underline;
+	color:#ffffff;
+}
+
+#sidebar2 form {}
+#sidebar2 form input#s {
+	font-family: "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+	padding: 8px 5px;
+	margin:0px 0px 5px;
+	font-size: 1.3em;
+	font-weight: normal;
+	background-color: #fafafa;
+	border: 1px solid #E5E2D9;
+	
+}
+
+#sidebar2 form input#s:hover {
+	
+	background-color: #F7F7F3;
+	border: 1px solid #E5E2D9;
+}
+#sidebar2 form input {
+	border:none;
+	padding:5px;
+}
+
+
+/*		
+//////////////////////////////////////////////////////
+					    SEARCHFORM
+//////////////////////////////////////////////////////
+*/ 
+
+
+#searchform {
+	font-size: 0.8em;
+
+}
+
+
+
+/*		
+//////////////////////////////////////////////////////
+						FOOTER
+//////////////////////////////////////////////////////
+*/ 
+
+#footer {
+	clear: both;
+	height: 35px;
+	margin-top: 25px;
+}
+#footer p {
+	padding-left: 15px;
+	padding-top: 5px;
+	color: #ffffff;	
+}
+
+#footer p a:link,
+#footer p a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#footer p a:hover {
+	color: #ff8181;
+	text-decoration: underline;
+}
+
+#footer span {
+	font-size: 0.7em;
+	color: #333333;
+}
+#footer span a:link,
+#footer span a:hover, 
+#footer span a:visited         {
+	color: #333333;
+}
+

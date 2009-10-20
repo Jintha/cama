@@ -1,0 +1,413 @@
+/* 
+	Theme Name: Pool
+	Theme URI: http://www.lamateporunyogur.net/pool
+	Description: A two columns blue theme for the best CMS, WordPress.
+	Author: Borja Fernandez
+	Author URI: http://www.lamateporunyogur.net
+	Version: 1.0.7
+		
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+	
+	
+	Changelog:
+		v1.0
+			First Release
+		v1.0.1
+			Fixed search bug position
+		v1.0.2
+			Fixed search bug
+			Added links.php
+			Changed archives.php
+		v1.0.3
+			Remove cursor: pointer; from header
+		v1.0.4
+			Bug report from Nilson Cain fixed
+			Class image center fixed
+			Search form moved from header
+			Changelog are now in style.css. Changelog.txt removed.
+			Added logo with .psd file
+			Other changes in css
+		v1.0.5
+			Move comments in index
+			Other changes in css
+		v1.0.6
+			Changed sidebar
+		v1.0.7
+			Fixed rss feed and trackack uri if comments are closed (Thanks soteke)
+*/
+
+body {
+	background: url(images/bg.gif);
+	color: #333;
+	font-family: "Trebuchet MS", "Bitstream Vera Serif", Utopia, "Times New Roman", times, serif;
+	margin: 0;
+	padding: 5px 0;
+	}
+
+/* Structure Divs */
+#content {
+	background: #fff;
+	border: 1px solid #9C9C9C;
+	margin: 0 auto;
+	padding: 5px;
+	width: 795px;
+	}
+
+#header {
+	background: #8EBAFD url(images/logo.gif) no-repeat;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	}
+
+#pages {
+	background: #B8D4FF;
+	font-size: 12px;
+	margin: 0;
+	padding: 15px 0 6px 20px;
+	}
+	
+#search {
+	float: right;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 10px;
+	top: -22px;
+}	
+	
+#noticias {
+	float: left;
+	margin: 0;
+	padding: 0 0 20px 20px;
+	width: 550px;
+	}
+
+#sidebar {
+	float: right;
+	font-size: 11px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0 10px;
+	width: 170px;
+	}
+
+#credits {
+	background: #D5E5FE;
+	font-family: Small Fonts, VT100, Arial, Helvetica;
+	font-size: 9px;
+	margin: 0;
+	padding: 5px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+	
+/* Config Structure Divs */
+
+	/* Header */
+	#header h1 {
+		font-size: 30px;
+		letter-spacing: 0.1em;
+		margin: 0;
+		padding: 20px 0 20px 30px;
+		width: 300px;
+		}
+		
+	#header a, #header a:hover {
+		background: transparent;
+		color: #fff;
+		text-decoration: none;
+		}
+	
+	/* Pages */
+	#pages li {
+		display: inline;
+		list-style-type: none;
+		}
+		
+	#pages ul, ol {
+		margin: 0;
+		padding: 0;
+		}
+		
+	#pages a {
+		background: #fff;
+		color: #1E4C62;
+		font-weight: bold;
+		margin: 0 3px 0 0;
+		padding: 6px 10px;
+		}
+		
+	#pages a:hover {
+		background: #8EBAFD;
+		color: #fff;
+		}
+		
+	.current_page_item a, .current_page_item a:hover {
+		background: #8EBAFD !important;
+		color: #fff !important;
+		}
+		
+	/* Search */
+	#search input {
+		border: 1px solid #66A8CC;
+		font-size: 12px;
+		padding: 2px;
+		width: 160px;
+		}
+			
+	/* Noticias */
+	#noticias p, #noticias ul, #noticias ol {
+		font-size: 13px;
+		line-height: 1.6em;
+		}
+			
+	#noticias ul {
+		list-style-type: circle;
+		margin: 0 0 0 30px;
+		padding: 0;
+		}
+			
+	#noticias li {
+		margin: 0;
+		padding: 0;
+		}
+
+	#noticias h2, #noticias h2 a {
+		color: #0090DA;
+		font-size: 18px;
+		font-weight: normal;
+		margin: 50px 0 0 0;
+		padding: 0;
+		text-decoration: none;
+		}
+		
+	#noticias h2 a:hover {
+		background: transparent;
+		color: #6EB9E0;
+		}
+		
+	#noticias h3 {
+		color: #016CA3;
+		font-size: 15px;
+		font-weight: normal;
+		margin: 0;
+		padding: 20px 0 5px 0;
+		}
+
+	#noticias small {
+		font-family: Arial, Helvetica, Sans-Serif;
+		font-size: 11px;
+		}
+		
+	.feedback {
+		color: #898A8A;
+		font-size: 12px;
+		margin: 0;
+		padding: 0 20px;
+		text-align: center;
+		}
+		
+	/* Entrada */
+	.entrada {
+		margin: 0;
+		padding: 0;
+		}
+
+	/* Comments */
+	#commentlist {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+
+	#commentlist li {
+		margin: 10px 0;
+		padding: 5px 10px;
+		}
+			
+	#commentlist p {
+		margin: 0;
+		padding: 0;
+		}
+			
+	#commentlist small {
+		font-size: 11px;
+		}
+
+	.class_comment1 { background: #E9E9EA; border: 1px solid #E0DEDE; }
+	.class_comment2 { background: #F4F3F3; border: 1px solid #E0DEDE; }
+	
+	#comments, #postcomment {
+		color: #0090DA;
+		font-size: 14px !important;
+		font-weight: normal;
+		margin: 40px 0 10px 10px;
+		text-transform: uppercase;
+		}
+			
+	#commentform {
+		background: #D3E4FF;
+		border: 1px solid #D8D8D8;
+		padding: 5px 20px;
+		}
+		
+	#commentform input, #commentform textarea {
+		background: #F9FBFF;
+		border: 1px solid #B8D4FF;
+		font-size: 12px;
+		padding: 1px;
+		}
+		
+	#commentform input:focus, #commentform textarea:focus {
+		background: #EEF5FF;
+		}
+	
+	/* Sidebar */
+	#sidebar h3 {
+		background: url(images/dot.gif) repeat-x bottom;
+		color: #174B65;
+		font-size: 11px;
+		font-weight: normal;
+		letter-spacing: 0.2em;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+		}
+		
+	#sidebar ul, #sidebar ol {
+		list-style: none;
+		margin: 0;
+		padding: 5px;
+		}
+		
+	#sidebar li, #sidebar li:hover {
+		margin: 0;
+		padding: 0;
+		}
+		
+	#sidebar a {
+		color: #0B76AE;
+		}
+		
+	#sidebar a:hover {
+		background: url(images/dot.gif) repeat-x bottom;
+		color: #0B76AE;
+		}
+		
+	#sidebar div { 
+		margin: 20px 0;
+		padding: 0;
+		}
+
+	/*	Credits */
+	#credits a {
+		color: #3E708A;
+		}
+		
+	#credits a:hover {
+		background: transparent;
+		color: #0090DA;
+		}
+		
+	#credits p {
+		margin: 0;
+		padding: 0;
+		}
+
+/* General */
+a {
+	color: #0B76AE;
+	text-decoration: none;
+	}
+
+a:hover {
+	background: #0090DA;
+	color: #fff;
+	}
+
+acronym, abbr, span.caps {
+	cursor: help;
+	border-bottom: 1px dotted #000;
+	}
+	
+blockquote {
+	background: #E3F5FE url(images/blockquote.png) no-repeat bottom left;
+	padding: 5px 20px 30px 20px;
+	margin: 1em;
+	} /* Idea from ShadedGrey of http://wpthemes.info/ */
+
+cite {
+	text-decoration: none;
+	}
+	
+code {
+	font-family: 'Courier New', Courier, Fixed, sans-serif;
+	font-size: 1.1em;
+	}
+
+img {
+	border: 0;
+	}
+
+h4 {
+	color: #858585;
+	}
+	
+/* Float and Clear */
+div.floatleft {
+	float: left;
+	}
+
+div.floatright {
+	float: right;
+	}
+	
+div.both {
+	clear: both;
+	}
+	
+/* Images align */
+img.border {
+	border: 1px solid #C6C6C6;
+	padding: 4px;
+	margin: 0;
+	}
+
+img.border:hover {
+	background: #E3F5FE;
+	}
+
+img.center {
+	display: block; 
+	margin: auto;   
+	}
+
+img.alignright {
+	float: right;
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	float: left;
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+	
+/* Text align */
+.center {
+	text-align: center;
+	}
+	
+.alignright {
+	text-align: right;
+	}
+
+.alignleft {
+	text-align: left;
+	}

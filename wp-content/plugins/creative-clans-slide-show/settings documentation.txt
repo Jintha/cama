@@ -1,0 +1,223 @@
+Creative Clans Slide Show
+
+Copyright 2008-2009 Guido Tonnaer
+
+Parameters:
+
+- path
+	Compulsory
+	Contains the absolute path to the slides folder, WITH the final slash.
+
+- images
+	Compulsory
+	List of the image names, one image per line.
+	(if you didn't use the 'path' setting, or only put a part of the path
+        there (because you've enabled 'Organize my uploads into month- and 
+        year-based folders' in the Wordpress miscellanious settings, or anyway
+        the images are stored in different folders), then you'll have to add
+        the (missing part of) the path to the image names)
+
+- captions
+	List of the image captions, one caption per line.
+
+- links
+	List of the image links, one link per line.
+
+- backgroundColor
+	Background color  
+	Value has to be in the format 0xXXXXXX  
+	Default: 0xFFFFFF (white) 
+
+- loops
+	Number of loops  
+	Value has to be numeric
+	Value 0 means infinite loops
+	Default: 0 
+
+- effectTime
+	Duration of the transition effect between slides (in seconds)
+	Value has to be numeric  
+	Default: 1 
+
+- wait
+	Time the slide is shown (in milliseconds)
+	The waiting starts at the end of the transition effect
+	Value has to be numeric  
+	Default: 3000 (3 seconds)
+
+- includeEffects
+	List of transition effects to be used (separated by comma, no spaces (!))
+        Example: fadein,fadeout
+	  (if you want to use all available effects, omit this parameter of leave it empty)
+	Possible values: see further down
+	Default: empty
+
+- excludeEffects
+	List of transition effects not to be used (separated by comma, no spaces (!))
+	  (if you want to use all available effects, omit this parameter of leave it empty)
+	Possible values: see further down   
+	Default: empty
+
+- stopOnMouseOver
+	If 'yes', the slide show is paused while the mouse hovers over the slideshow
+	Possible values: yes, no   
+	Default: no
+
+- enableLinks
+	If 'yes', clicking on the slide will open the link defined in the link parameter, 
+	or, if that doesn't have a value, the link defined for each slide in CCSlideShow.xml
+	Possible values: yes, no
+	Default: no
+
+- link
+	If used, it replaces the link defined for each single slide in CCSlideShow.xml
+	Default: empty
+
+
+- LinkTarget
+	Possible values:
+		_self	specifies the current frame in the current window.		_blank	specifies a new window.
+		_parent	specifies the parent of the current frame.		_top	specifies the top-level frame in the current window.
+	Default: _blank
+
+- order
+	Order in which the slides are shown
+	Possible values: forward, backward, random
+	Default: forward
+
+- slides
+	Number of slides to be shown
+	Value has to be numeric
+	Value 0 means all slides
+	Is used when Order is random
+	Default: 0 
+
+- borderStyle
+	Possible values: none, solid, blurred  
+	Default: none 
+
+- borderColor
+	Is used when Border style is solid or blurred
+	Value has to be in the format 0xXXXXXX  
+	Default: 0x000000 (black) 
+
+- borderThickness
+	Border thickness in px
+	Is used when Border style is solid or blurred
+	Value has to be numeric  
+	Default: 1 
+
+- borderAlpha
+	Border transparancy value
+	Is used when Border style is solid or blurred
+	Value has to be numeric from 0 to 1.0  
+	Default: 1.0 
+
+- captionStyle
+	Possible values: none, fixed, hide (appears when the mouse hovers over the slide) 
+	Default: none 
+
+- captionType
+	Is used when Caption style is fixed or hide
+	Possible values: text, image  
+	Default: text 
+
+- captionImage
+	Is used when Caption style is fixed or hide, and Caption type is image
+	Has to contain the relative or absolute path to the image to be used  
+	Default: empty
+
+- captionBackgroundColor
+	Is used when Caption style is fixed or hide, and Caption type is text
+	Value has to be in the format 0xXXXXXX  
+	Default: 0x000000 (black) 
+
+- captionColor
+	Caption text color
+	Is used when Caption style is fixed or hide, and Caption type is text
+	Value has to be in the format 0xXXXXXX  
+	Default: 0xFFFFFF (white) 
+
+- captionText
+	Is used when Caption style is fixed or hide, and Caption type is text
+	If used, it replaces the caption text of the single slides set in the slides xml document
+	Default: empty
+
+- captionTextRightMargin
+	Is used when Caption style is fixed or hide, and Caption type is text
+	Has to be a numeric value
+	Default: 0
+
+- captionTextLeftMargin
+	Is used when Caption style is fixed or hide, and Caption type is text
+	Has to be a numeric value
+	Default: 0
+
+- captionTextBottomMargin
+	Is used when Caption style is fixed or hide, and Caption type is text
+	Has to be a numeric value
+	Default: 0
+
+- captionTextFont
+	Is used when Caption style is fixed or hide, and Caption type is text
+	If the font doesn't exist, the default flash font (Times New Roman) will be used
+	Default: Times New Roman
+
+- captionTextFontSize
+	Is used when Caption style is fixed or hide, and Caption type is text
+	Default: 12
+
+- captionBackgroundAlpha
+	Caption background transparancy value
+	Is used when Caption style is fixed or hide
+	Value has to be numeric from 0 to 1.0  
+	Default: 1.0 
+
+- captionPosition
+	Is used when Caption style is fixed or hide
+	Possible values: top, bottom, offset  
+	Default: top 
+
+- captionHorizontalOffset
+	Is used when Caption position is offset
+	Value has to be numeric
+	Default: 0 
+
+- captionVerticalOffset
+	Is used when Caption position is offset
+	Value has to be numeric
+	Default: 0 
+
+
+Transition effects
+-----------------------------------------------
+
+- none
+- fadeout
+- fadein
+- upout
+- upin
+- downout
+- downin
+- leftout
+- leftin
+- rightout
+- rightin
+- leftupout
+- leftupin
+- rightupout
+- rightupin
+- rightdownout
+- rightdownin
+- leftdownout
+- leftdownin
+- shrinkleftup
+- growleftup
+- shrinkleftdown
+- growleftdown
+- shrinkrightup
+- growrightup
+- shrinkrightdown
+- growrightdown
+- shrinkcenter
+- growcenter

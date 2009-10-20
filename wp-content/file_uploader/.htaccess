@@ -1,0 +1,11 @@
+php_value upload_max_filesize 100M
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress_new/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress_new/index.php [L]
+</IfModule>
+
+# END WordPress

@@ -1,0 +1,1 @@
+[27-Aug-2006 15:48:31] PHP Fatal error:  Call to undefined function:  get_header() in /home/themesw/public_html/testrun/wp-content/themes/257/index.php on line 1
