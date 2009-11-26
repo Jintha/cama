@@ -1,5 +1,5 @@
 /* body bg */
-body { background: url(img/bg-body-ie6.png) 50% 85px no-repeat; }
+/*body { background: url(img/bg-body-ie6.png) 50% 85px no-repeat; }*/
 
 
 /* http://positioniseverything.net/explorer/threepxtest.html */
@@ -22,3 +22,86 @@ body .comment .comment-body { height: 1%; margin-left: 0; }
 
 /* Adds some minimum height to the navigation to show the background-color */
 div.navigation { height: 1%; }
+
+
+/* Multilevel CSS*/
+
+#suckerfishnav {
+    background:#9C1F1B url("../multi-level-navigation-plugin/images/suckerfish_red.png") repeat-x;
+    font-size:18px;
+    font-family:verdana,sans-serif;
+    font-weight:bold;
+    width:103%;
+    }
+#suckerfishnav, #suckerfishnav ul {
+    float:left;
+    list-style:none;
+    line-height:40px;
+    padding:0;
+    border:1px solid #aaa;
+    margin:0;
+    width:103%;
+    position:absolute; /*added in to stretch length of menu*/
+    left: -1px;
+    }
+#suckerfishnav a {
+    display:block;
+    color:#dddddd;
+    text-decoration:none;
+    padding:0px 10px;
+    }
+#suckerfishnav li {
+    float:left;
+    padding:0;
+    }
+#suckerfishnav ul {
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:151px;
+    font-weight:normal;
+    margin:0;
+    line-height:1;
+    border:0;
+    border-top:1px solid #666666;
+    }
+#suckerfishnav li li {
+    width:149px;
+    border-bottom:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+    font-weight:bold;
+    font-family:verdana,sans-serif;
+    }
+#suckerfishnav li li a {
+    padding:4px 10px;
+    width:130px;
+    font-size:12px;
+    color:#dddddd;
+    }
+#suckerfishnav li ul ul {
+    margin:-21px 0 0 150px;
+    }
+#suckerfishnav li li:hover {
+    background:#9C1F1B;
+    }
+#suckerfishnav li ul li:hover a, #suckerfishnav li ul li li:hover a, #suckerfishnav li ul li li li:hover a, #suckerfishnav li ul li li li:hover a {
+    color:#dddddd;
+    }
+#suckerfishnav li:hover a, #suckerfishnav li.sfhover a {
+    color:#dddddd;
+    }
+#suckerfishnav li:hover li a, #suckerfishnav li li:hover li a, #suckerfishnav li li li:hover li a, #suckerfishnav li li li li:hover li a {
+    color:#dddddd;
+    }
+#suckerfishnav li:hover ul ul, #suckerfishnav li:hover ul ul ul, #suckerfishnav li:hover ul ul ul ul, #suckerfishnav li.sfhover ul ul, #suckerfishnav li.sfhover ul ul ul, #suckerfishnav li.sfhover ul ul ul ul {
+    left:-999em;
+    }
+#suckerfishnav li:hover ul, #suckerfishnav li li:hover ul, #suckerfishnav li li li:hover ul, #suckerfishnav li li li li:hover ul, #suckerfishnav li.sfhover ul, #suckerfishnav li li.sfhover ul, #suckerfishnav li li li.sfhover ul, #suckerfishnav li li li li.sfhover ul {
+    left:auto;
+    background:#444444;
+    }
+#suckerfishnav li:hover, #suckerfishnav li.sfhover {
+    background:#DA0909;
+    }
+

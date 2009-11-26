@@ -309,7 +309,7 @@ h1#logo { font-size: 30px; line-height: 1.2; margin: 0; }
 /*#nav { position: absolute; top: 75px; left: 0; width: 985px; }*/
 
 ul#menu {
-  background: #004D99 url(img/navigation.png) top left repeat-x;
+/*  background: #004D99 url(img/navigation.png) top left repeat-x;*/
   display: block;
   height: 41px;
   padding: 0 28px 0 18px;
@@ -867,7 +867,8 @@ html .clearfix { display: block; }
     font-size:18px;
     font-family:verdana,sans-serif;
     font-weight:bold;
-    width:100%;
+    /*width:100%;*/
+    width:939px;
     }
 #suckerfishnav, #suckerfishnav ul {
     float:left;
@@ -876,7 +877,8 @@ html .clearfix { display: block; }
     padding:0;
     border:1px solid #aaa;
     margin:0;
-    width:100%;
+    width:939px;
+    /*width:100%;*/
     position:absolute; /*added in to stretch length of menu*/
     left: -1px;
     }
