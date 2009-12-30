@@ -454,6 +454,7 @@ ul#submenu { display: block; padding: 5px 21px 0; }
   padding: 6px 28px;
   text-shadow: 0px 1px 0px #fff;
   width: 576px;
+  display:none /*css to disable comment header*/
 }
 
 * html .meta { height: 1%; }
@@ -536,7 +537,7 @@ p strong, li strong { color: #2E2E2E; }
   margin-top: 20px;
   padding: 7px 2px;
 }
-.postmetadata a { color: #666; padding: 2px; }
+.postmetadata a { color: #666; padding: 2px; display: none; }/*added display none 
 .postmetadata a:hover { background-color: #efefef; }
 
 /* Advertisement space - see Admin Settings */
